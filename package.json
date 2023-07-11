@@ -1,0 +1,27 @@
+{
+  "name": "sample-ts",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Dan Buckland",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "serve": "webpack serve --config webpack.dev.js"
+  },
+  "devDependencies": {
+    "@types/aframe": "^1.2.2",
+    "@types/three": "^0.153.0",
+    "aframe-typescript-class-components": "^0.3.3",
+    "html-webpack-plugin": "^5.5.3",
+    "three": "^0.154.0",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "type": "module",
+  "dependencies": {
+    "aframe": "^1.4.2"
+  }
+}
